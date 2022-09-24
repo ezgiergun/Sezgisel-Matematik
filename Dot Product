@@ -1,0 +1,17 @@
+
+-Dot Product'a Sezgisel Bir Yaklaşım-
+
+Vektör dediğimizde, kısaca sayılardan oluşan bir listeden söz ederiz. Mesela V = [2,5] olsun, bu durumda bu vektör iki sayıdan oluşuyor. 
+Biz bu sayıları istediğimiz kadar arttırabiliriz.
+T = [8,12] şeklinde ikinci bir vektör yaratalım. Normal sayılar gibi bu vektörler üzerinde de temel cebir işlemlerini yapmamız mümkün, ekleriz çıkartırız. 
+Yukarıdaki iki vektörü birbirinden çıkartalım:
+V-T=[1-8,3-12]=[-7,-9]. Ya da toplayalım: V+T=[1+8,3+12]=[9,15] Böylece yeni vektörler oluşturduk. 
+İki vektörün çarpılması ise toplama ve çıkarmaya benzer şekilde yapılabilir. "Dot product" ise iki vektörü çarparken farklı bir yöntemi kullanır.
+İki vektörün dot productının hesabı çarpma ve toplamayı içerir. Öncelikle çarpmayı yapalım: [16,60]
+Sonrasında ise iki elementi topluyoruz:76.
+Dot productı hesapladıktan sonra yapabileceğimiz bir şey daha var! Vektörün uzunluğunu bulabiliriz. Vektörün uzunluğu şu şekilde gösterilir: |V|
+Pisagor teoremini vektörün uzunluğunu hesaplamak için kullanabiliriz. Üçgende a ve b dik kenarlar iken uzun kenar c'nin uzunluğunu şu formülle hesaplayabiliyorduk:
+c^2=a^2+b^2 Bu formülü |V|'yi hesaplamak için de kullanabiliriz. Şu şekilde |v|^2=2^2+5^2, |v|^2=29, |V|=√29 olur bu durumda.
+Yukarıdaki işlem V vektörünü kendisiyle dot productını alıp, bunun da karekökünü almaya benzer. Deneyelim: |V|=√V.V, |V|=√(2*2)+(5*5), |V|=√29
+Dot product'ı açının 90 derece olmadığı şekillerde kullanmak da bir sonraki yazının konusu olsun! Gördüğünüz gibi dot product oldukça kullanışlı bir araç!
+
